@@ -17,8 +17,34 @@ import (
  */
 
 func balancedSums(arr []int32) string {
-	// Write your code here
+	if len(arr) == 1 {
+		return "YES"
+	}
+	var left int32
+	var right = reduce(arr, sum, 0)
+	for i := 0; i < len(arr) && i+1 < len(arr); i++ {
+		if i != 0 {
+			left += arr[i-1]
+		}
+		right -= arr[i]
+		fmt.Printf("%v = %v = %v \n", left, arr[i], right)
+		if left == right {
+			return "YES"
+		}
+	}
+	return "NO"
+}
 
+func sum(acc, current int32) int32 {
+	return acc + current
+}
+
+func reduce(s []int32, f func(int32, int32) int32, initValue int32) int32 {
+	acc := initValue
+	for _, v := range s {
+		acc = f(acc, v)
+	}
+	return acc
 }
 
 func main() {
