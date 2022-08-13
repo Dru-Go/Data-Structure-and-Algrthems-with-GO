@@ -9,5 +9,6 @@ use (
 	./matching_socks
 	./minmax2
 	./permutation_validation
+	./recursive_digit_sum
 	./subarray_division
 )
