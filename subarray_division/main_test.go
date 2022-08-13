@@ -48,7 +48,7 @@ func Test_birthday(t *testing.T) {
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			got := birthday(tt.args.s, tt.args.d, tt.args.m)
-			assert.Equal(t, got, tt.want)
+			assert.Equal(t, tt.want, got)
 		})
 	}
 }

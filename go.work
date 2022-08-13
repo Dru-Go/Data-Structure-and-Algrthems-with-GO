@@ -1,6 +1,12 @@
 go 1.18
 
 use (
+	./caesar_cipher
+	./dynamic_array
+	./flip_paper
+	./grid_challenge
+	./matching_socks
+	./minmax2
 	./permutation_validation
 	./subarray_division
 )

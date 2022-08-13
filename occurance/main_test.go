@@ -1,7 +1,7 @@
 package main
 
 import (
-	"reflect"
+	"github.com/stretchr/testify/assert"
 	"testing"
 )
 
@@ -34,9 +34,8 @@ func Test_matchingStrings(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := matchingStrings(tt.args.str, tt.args.queries); !reflect.DeepEqual(got, tt.want) {
-				assert.Equal(t, got, tt.want)
-			}
+			got := matchingStrings(tt.args.str, tt.args.queries)
+			assert.Equal(t, tt.want, got)
 		})
 	}
 }
