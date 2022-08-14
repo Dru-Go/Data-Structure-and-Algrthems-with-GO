@@ -2,6 +2,7 @@ go 1.18
 
 use (
 	./balancedSums
+	./bitwise_xor
 	./caesar_cipher
 	./counter_game
 	./dynamic_array
