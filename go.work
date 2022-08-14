@@ -3,6 +3,7 @@ go 1.18
 use (
 	./balancedSums
 	./caesar_cipher
+	./counter_game
 	./dynamic_array
 	./flip_paper
 	./grid_challenge
