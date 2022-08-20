@@ -3,14 +3,21 @@ go 1.18
 use (
 	./balancedSums
 	./bitwise_xor
+	./bomberman
 	./caesar_cipher
+	./climbing_the_leaderboard
 	./counter_game
 	./dynamic_array
 	./flip_paper
 	./grid_challenge
 	./matching_socks
+	./minimal_bribes
 	./minmax2
+	./palendrome
 	./permutation_validation
 	./recursive_digit_sum
+	./reverse_doublelinked_list
+	./reverse_linkedlist
+	./string_frequency_validator
 	./subarray_division
 )
