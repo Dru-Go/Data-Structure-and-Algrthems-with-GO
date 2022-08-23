@@ -10,6 +10,8 @@ use (
 	./dynamic_array
 	./flip_paper
 	./grid_challenge
+	./icecream_parler
+	./insertNodeAtPosition
 	./matching_socks
 	./minimal_bribes
 	./minmax2
