@@ -2,24 +2,29 @@ go 1.18
 
 use (
 	./balancedSums
+	./balanced_brackets
 	./bitwise_xor
 	./bomberman
 	./caesar_cipher
 	./climbing_the_leaderboard
 	./counter_game
 	./dynamic_array
+	./equal_stack
 	./flip_paper
 	./grid_challenge
 	./icecream_parler
 	./insertNodeAtPosition
 	./matching_socks
+	./max_subarray
 	./minimal_bribes
 	./minmax2
 	./palendrome
 	./permutation_validation
+	./queue
 	./recursive_digit_sum
 	./reverse_doublelinked_list
 	./reverse_linkedlist
 	./string_frequency_validator
 	./subarray_division
+	./sweatness
 )
