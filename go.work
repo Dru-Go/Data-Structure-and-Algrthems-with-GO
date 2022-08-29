@@ -1,8 +1,10 @@
 go 1.18
 
 use (
+	./array_manuplation
 	./balancedSums
 	./balanced_brackets
+	./binary_search
 	./bitwise_xor
 	./bomberman
 	./caesar_cipher
@@ -20,7 +22,9 @@ use (
 	./minmax2
 	./palendrome
 	./permutation_validation
+	./prefix_sum
 	./queue
+	./radio_transmission
 	./recursive_digit_sum
 	./reverse_doublelinked_list
 	./reverse_linkedlist
