@@ -22,6 +22,7 @@ use (
 	./minmax2
 	./palendrome
 	./permutation_validation
+	./prefix_set
 	./prefix_sum
 	./queue
 	./radio_transmission
