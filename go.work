@@ -4,6 +4,7 @@ use (
 	./array_manuplation
 	./balancedSums
 	./balanced_brackets
+	./bigsorting
 	./binary_search
 	./bitwise_xor
 	./bomberman
@@ -20,6 +21,7 @@ use (
 	./max_subarray
 	./minimal_bribes
 	./minmax2
+	./pairs
 	./palendrome
 	./permutation_validation
 	./prefix_set
@@ -32,4 +34,5 @@ use (
 	./string_frequency_validator
 	./subarray_division
 	./sweatness
+	./trucktour
 )
