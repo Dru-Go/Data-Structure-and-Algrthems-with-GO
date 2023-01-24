@@ -8,24 +8,30 @@ use (
 	./binary_search
 	./bitwise_xor
 	./bomberman
+	./builder_pattern
 	./caesar_cipher
+	./chunk
 	./climbing_the_leaderboard
+	./composite_pattern
 	./counter_game
 	./dynamic_array
 	./equal_stack
 	./flip_paper
 	./grid_challenge
+	./hashmap
 	./icecream_parler
 	./insertNodeAtPosition
 	./matching_socks
 	./max_subarray
 	./minimal_bribes
 	./minmax2
+	./non_prime_factors
 	./pairs
 	./palendrome
 	./permutation_validation
 	./prefix_set
 	./prefix_sum
+	./queries_with_fixed_length
 	./queue
 	./radio_transmission
 	./recursive_digit_sum
@@ -34,5 +40,6 @@ use (
 	./string_frequency_validator
 	./subarray_division
 	./sweatness
+	./trie/no_prefix_set
 	./trucktour
 )
