@@ -1,6 +1,6 @@
 ## Hacker Rank - Data Structures and Algorithms
 
-Welcome to the Hacker Rank - Data Structures and Algorithms repository! Here you will find various solutions to the problems from the Hacker Rank's Data Structures and Algorithms section.
+Welcome to the may 30 day hackerrank challenges - Data Structures and Algorithms repository! Here you will find various solutions to the problems from the Hacker Rank's Data Structures and Algorithms section.
 
 ## Table of Contents
 
