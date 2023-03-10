@@ -18,7 +18,7 @@ Clone the repository
 Copy code
 
 ```sh
-git clone <https://github.com/your-username/Hacker-Rank-DSA.git>
+git clone https://github.com/Dru-Go/DSA_golang.git
 ```
 
 Navigate to the desired problem directory
